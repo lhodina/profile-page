@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="nav">
+            <div id="nav-left">
+                <span>Profile</span>
+                <ul id="nav-links">
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find Connections</li>
+                </ul>
+            </div>
+            <button type="submit">Sign Out</button>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="main-left">
+            <div class="card" id="bio">
+                <div class="card-label">
+                    <img id="jane" src="./images/profile_pics/jane-m.jpg">
+                </div>
+                <div class="card-content">
+                    <h1>Jane Doe</h1>
+                    <div id="location">
+                        <img id="map-marker" src="./images/icons/map-marker.png">
+                        <h2 id="city">Seattle</h2>
+                    </div>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet!</p>
+                    <div id="options">
+                        <img id="gear" src="images/icons/gear.png">
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="education">
+                <div class="card-label">
+                    <span>Education</span>
+                </div>
+                <div class="card-content">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <h4>Dec 2019 - Mar 2020</h4>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-right">
+            <div class="card" id="requests">
+                <div class="card-label">
+                    <span class="heading-count">2</span>
+                    <span class="heading">Connection Requests</span>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li class="request">
+                            <div class="request-left">
+                                <img class="profile-pic" src="./images/profile_pics/todd-s.jpg">
+                                <span>Todd E</span>
+                            </div>
+                            <div class="request-right">
+                                <img src="./images/Icons/accept-circle.png" class="request-icon">
+                                <img src="./images/Icons/close-circle.png" class="request-icon">
+                            </div>
+                        </li>
+                        <li class="request">
+                            <div class="request-left">
+                                <img class="profile-pic" src="./images/profile_pics/phil-s.jpg">
+                                <span>Phil K</span>
+                            </div>
+                            <div class="request-right">
+                                <img src="./images/Icons/accept-circle.png" class="request-icon">
+                                <img src="./images/Icons/close-circle.png" class="request-icon">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="card" id="connections">
+                <div class="card-label">
+                    <span class="heading-count">500+</span>
+                    <span class="heading">Your Connections</span>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li class="connection"><img class="profile-pic" src="./images/profile_pics/adrien-s.jpg"><span>Adrien D</span></li>
+                        <li class="connection"><img class="profile-pic" src="./images/profile_pics/anne-s.jpg"><span>Anne J</span></li>
+                        <li class="connection"><img class="profile-pic" src="./images/profile_pics/alayne-s.jpg"><span>Alayne T</span></li>
+                        <li class="connection"><img class="profile-pic" src="./images/profile_pics/arry-s.jpg"><span>Arry Y</span></li>
+                    </ul>
+                    <a id="view-more" href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
